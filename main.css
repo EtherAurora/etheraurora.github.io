@@ -1,0 +1,92 @@
+.Color-Palette{
+    /*Rich Black*/ color: #033647;
+    /*Midnight Green (Eagle Green)*/ color: #0d4053;
+    /*Police Blue*/ color: #255b6c;
+    /*Jelly Bean Blue*/ color: #467a85;
+    /*Deep Moss Green*/ color: #315e42;
+    /*Oxley*/ color: #74a56e;
+    /*Eton Blue*/ color: #92c7a9;
+    /*Jungle Green*/ color: #1f948d;
+    /*Pale Robin Egg Blue*/ color: #98e0d6;
+    /*Cinnamon Satin*/ color: #d16176;
+}
+
+html{
+    background: url(/Images/Backgrounds/Background-2.png) no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+
+    width: 1920px;
+}
+
+body{
+    position: absolute;
+    left: 10%;
+
+    width: 80%;
+    height: auto;
+    background-color: #033647;
+}
+
+header{
+    height: 640px;
+}
+
+footer{
+    text-align: center; 
+    width: 25%; 
+    position: relative; 
+    left: 37.5%;
+}
+
+hr{
+    border: 1px solid #255b6c;
+}
+
+.nav-bar{
+    display: flex;
+    position: relative;
+
+    top: 50px;
+    left: 0px;
+
+    border: 2px solid red;
+}
+
+.header-image{
+    position: relative; 
+    min-width: 50vw; 
+    top: 17vh; 
+    right: 15vw;
+}
+
+.header-links{
+    position: absolute;
+    right: 5%;
+    top: 10px;
+    font-size: 28px;
+}
+
+.header-links span{
+    margin-left: 15px;
+}
+
+.header-links a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.main-content{
+    position: relative;
+    margin: 25px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media-links{
+    list-style: none;
+    padding: 10px;
+}
