@@ -84,6 +84,48 @@ hr{
     justify-content: space-between;
 }
 
+.about-us-content{
+    position: relative;
+    margin: 25px;
+}
+
+.staff-card{
+    max-width: 55vw;
+
+    position: relative;
+    left: 10vw;
+
+    display: flex;
+}
+
+.staff-card li{
+    font-size: 22px;
+    font-weight: bold;
+    width: 15vw;
+}
+
+.staff-pfp{
+    position: relative;
+    left: 2vw;
+}
+
+.staff-desc{
+    position: relative;
+    top: 10vh;
+    right: 1vw;
+
+    max-width: 23vw;
+    max-height: 40vh;
+
+    overflow: scroll;
+}
+
+.socials-ul{
+    position: relative;
+    top: 15vh;
+    max-height: 15vh;
+}
+
 .social-media-links{
     list-style: none;
     padding: 10px;
